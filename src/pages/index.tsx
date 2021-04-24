@@ -27,7 +27,6 @@ import { api } from '../services/api';
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
 
 import styles from './home.module.scss'
-import { SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION } from 'constants';
 import { useContext } from 'react';
 import { PlayerContext } from '../contexts/PlayerContext';
 
